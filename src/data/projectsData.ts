@@ -1,0 +1,58 @@
+const projectsData = [
+  {
+    title: 'E-Commerce Platform',
+    description: 'A simple full-stack e-commerce web application built with Java Spring Boot and Angular. Core features include product listing, shopping cart.',
+    imageUrl: 'https://placehold.co/600x400/1e293b/e2e8f0?text=E-commerce+Platform',
+    tags: ['Angular', 'Spring', 'Bootstrap', 'MySQL'],
+    codeUrl: 'https://github.com/youssef88ab/ecommerce-java-angular',
+    demoUrl: 'https://github.com/youssef88ab/ecommerce-java-angular',
+    delay: 500,
+  },
+  {
+    title: 'Notaire Professional Website',
+    description: 'A complete website solution for notary offices built with core web technologies (no frameworks), with a reservation system and admin panel dashboard.',
+    imageUrl: 'https://placehold.co/600x400/1e293b/e2e8f0?text=Notaire+Professional',
+    tags: ['PHP', 'MySQL', 'JavaScript', 'Bootstrap'],
+    codeUrl: '#',
+    demoUrl: '#',
+    delay: 600,
+  },
+  {
+    title: 'Bank Management System',
+    description: 'This is a simple banking system implemented in C++ that manages client accounts and transactions.',
+    imageUrl: 'https://placehold.co/600x400/1e293b/e2e8f0?text=Bank+System',
+    tags: ['C++'],
+    codeUrl: 'https://github.com/youssef88ab/Bank-Managment-System',
+    demoUrl: 'https://github.com/youssef88ab/Bank-Managment-System',
+    delay: 700,
+  },
+  {
+    title: 'Guess The Word Game',
+    description: 'A classic "Guess the Word" game built with vanilla JavaScript, demonstrating fundamental DOM manipulation and game logic.',
+    imageUrl: 'https://placehold.co/600x400/1e293b/e2e8f0?text=Guess+The+Word',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    codeUrl: '#',
+    demoUrl: '#',
+    delay: 500,
+  },
+  {
+    title: 'Server Performance Stats',
+    description: 'A collection of Bash scripts designed to monitor and report key server performance metrics on Linux systems.',
+    imageUrl: 'https://placehold.co/600x400/1e293b/e2e8f0?text=Server+Stats',
+    tags: ['Linux', 'Shell Scripting', 'Bash'],
+    codeUrl: '#',
+    demoUrl: '#',
+    delay: 600,
+  },
+  {
+    title: 'Weather App',
+    description: 'A clean and simple weather application that fetches and displays current weather data from a third-party API.',
+    imageUrl: 'https://placehold.co/600x400/1e293b/e2e8f0?text=Weather+App',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    codeUrl: '#',
+    demoUrl: '#',
+    delay: 700,
+  },
+];
+
+export default projectsData;
