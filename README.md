@@ -2,5 +2,3 @@
 
 - [LinkedIn](https://www.linkedin.com/in/youssefabx/)
 - [X (Twitter)](https://x.com/yousefabx)
-
-

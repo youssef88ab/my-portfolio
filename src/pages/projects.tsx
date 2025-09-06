@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import type { FC } from 'react';
 import { Github, Linkedin, Menu, ExternalLink, Twitter } from 'lucide-react';
+import Navbar from '../components/navbar';
 
 // Data for the projects
 const projectsData = [
@@ -113,28 +114,7 @@ const Projects: FC = () => {
 
   return (
     <div className="bg-neutral-950 text-slate-200 font-sans antialiased">
-      <header className="fixed top-0 left-0 right-0 z-50 bg-neutral-900/60 backdrop-blur-md border-b border-white/10 fade-in-up opacity-0 translate-y-5 transition-all duration-500 ease-out" style={{ transitionDelay: '100ms' }}>
-        <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <a href="/" className="text-xl font-bold tracking-tight">Youssef Abou Eljihad</a>
-          <nav className="hidden md:flex space-x-8">
-            <a href="/" className="text-slate-300 hover:text-sky-400 transition-colors">Home</a>
-            <a href="/projects" className="text-sky-400 font-semibold">Projects</a>
-            <a href="/blogs" className="text-slate-300 hover:text-sky-400 transition-colors">Blog</a>
-            <a href="/#contact" className="text-slate-300 hover:text-sky-400 transition-colors">Contact</a>
-          </nav>
-          <button onClick={() => setMenuOpen(!isMenuOpen)} className="md:hidden p-2" aria-label="Toggle Menu">
-            <Menu className="w-6 h-6" />
-          </button>
-        </div>
-        {isMenuOpen && (
-          <div className="md:hidden px-6 pb-4 space-y-2">
-            <a href="/" className="block text-slate-300 hover:text-sky-400 transition-colors" onClick={() => setMenuOpen(false)}>Home</a>
-            <a href="/projects" className="block text-sky-400 font-semibold" onClick={() => setMenuOpen(false)}>Projects</a>
-            <a href="/blog" className="block text-slate-300 hover:text-sky-400 transition-colors" onClick={() => setMenuOpen(false)}>Blog</a>
-            <a href="/#contact" className="block text-slate-300 hover:text-sky-400 transition-colors" onClick={() => setMenuOpen(false)}>Contact</a>
-          </div>
-        )}
-      </header>
+      <Navbar />
 
       <main className="container mx-auto px-6 pt-32">
         <section id="projects" className="py-16">
