@@ -6,6 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig(({ command }: { command: 'serve' | 'build' }) => {
   return {
     plugins: [react(), tailwindcss()],
-    base: command === 'build' ? '/my-portfolio/' : '/', // ✅ dev vs deploy
+    base: command === 'build' ? '/' : '/', // ✅ dev vs deploy
   }
 })
