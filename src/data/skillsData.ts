@@ -10,11 +10,8 @@ export const skillsData = {
     { name: 'Bootstrap', icon: 'devicon-bootstrap-plain' },
     { name: 'Node.js', icon: 'devicon-nodejs-plain' },
     { name: 'Spring', icon: 'devicon-spring-original' },
-  ],
-  db: [
     { name: 'MongoDB', icon: 'devicon-mongodb-plain' },
     { name: 'PostgreSQL', icon: 'devicon-postgresql-plain' },
-    { name: 'MySQL', icon: 'devicon-mysql-plain-wordmark' },
   ],
   tools: [
     { name: 'Git', icon: 'devicon-git-plain' },

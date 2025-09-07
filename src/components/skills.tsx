@@ -3,7 +3,7 @@ import { skillsData } from "../data/skillsData";
 
 const skills: FC = () => {
 
-    type SkillCategory = 'web' | 'db' | 'tools';
+    type SkillCategory = 'web' | 'tools';
 
     const [activeTab, setActiveTab] = useState<SkillCategory>('web');
 
@@ -21,9 +21,6 @@ const skills: FC = () => {
                 <div className="flex flex-wrap justify-center gap-4 mb-10">
                     <button onClick={() => setActiveTab('web')} className={`text-sm font-semibold py-2 px-6 border rounded-md transition-all duration-300 ${activeTab === 'web' ? 'bg-sky-500 text-white border-sky-500' : 'border-slate-600'}`}>
                         WEB DEVELOPMENT
-                    </button>
-                    <button onClick={() => setActiveTab('db')} className={`text-sm font-semibold py-2 px-6 border rounded-md transition-all duration-300 ${activeTab === 'db' ? 'bg-sky-500 text-white border-sky-500' : 'border-slate-600'}`}>
-                        DATABASES
                     </button>
                     <button onClick={() => setActiveTab('tools')} className={`text-sm font-semibold py-2 px-6 border rounded-md transition-all duration-300 ${activeTab === 'tools' ? 'bg-sky-500 text-white border-sky-500' : 'border-slate-600'}`}>
                         TOOLS & LANGUAGES
