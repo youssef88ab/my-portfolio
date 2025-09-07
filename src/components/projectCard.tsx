@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import type projectsData from "../data/projectsData";
-import { Github, Linkedin, Menu, ExternalLink, Twitter } from 'lucide-react';
+import { Github, ExternalLink } from 'lucide-react';
 
 
 const ProjectCard: FC<typeof projectsData[0]> = ({ title, description, imageUrl, tags, codeUrl, demoUrl, delay }) => (
