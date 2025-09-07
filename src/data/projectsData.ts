@@ -38,7 +38,7 @@ const projectsData = [
   {
     title: 'Server Performance Stats',
     description: 'A collection of Bash scripts designed to monitor and report key server performance metrics on Linux systems.',
-    imageUrl: 'https://placehold.co/600x400/1e293b/e2e8f0?text=Server+Stats',
+    imageUrl: '/Images/projects/server-stats.png',
     tags: ['Linux', 'Shell Scripting', 'Bash'],
     codeUrl: '#',
     demoUrl: '#',
