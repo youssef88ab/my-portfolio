@@ -25,7 +25,7 @@ const About: FC = () => {
                 </div>
                 <div className="hidden lg:block flex-shrink-0 fade-in-up opacity-0 translate-y-5" style={{ transitionDelay: '400ms' }}>
                     <img
-                        src="/me.jpg"
+                        src={import.meta.env.BASE_URL + 'me.jpg'}
                         alt="Me"
                         className="rounded-full h-64 w-64 md:h-72 md:w-72 lg:h-80 lg:w-80 object-cover border-4 border-sky-500 shadow-lg transition-transform transform hover:scale-105 duration-700"
                     />

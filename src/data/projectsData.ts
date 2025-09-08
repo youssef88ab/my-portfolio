@@ -11,7 +11,7 @@ const projectsData = [
   {
     title: 'Bank Management System',
     description: 'C++ Project of Bank Management System. Here, you can create a new account, update information, view and manage transactions, remove…',
-    imageUrl: '/Images/projects/bank-management.png',
+    imageUrl: import.meta.env.BASE_URL + '/Images/projects/bank-management.png',
     tags: ['C++'],
     codeUrl: 'https://github.com/youssef88ab/Bank-Managment-System',
     demoUrl: 'https://github.com/youssef88ab/Bank-Managment-System',
@@ -20,7 +20,7 @@ const projectsData = [
   {
     title: 'Guess The Word Game',
     description: 'A classic "Guess the Word" game built with vanilla JavaScript, demonstrating fundamental DOM manipulation and game logic.',
-    imageUrl: '/Images/projects/guess-the-word.jpg',
+    imageUrl:  import.meta.env.BASE_URL +  '/Images/projects/guess-the-word.jpg',
     tags: ['HTML', 'CSS', 'JavaScript'],
     codeUrl: '#',
     demoUrl: '#',
@@ -29,7 +29,7 @@ const projectsData = [
   {
     title: 'Weather App',
     description: 'A clean and simple weather application that fetches and displays current weather data from a third-party API.',
-    imageUrl: '/Images/projects/weather-app.jpg',
+    imageUrl:  import.meta.env.BASE_URL +  '/Images/projects/weather-app.jpg',
     tags: ['HTML', 'CSS', 'JavaScript'],
     codeUrl: '#',
     demoUrl: '#',
@@ -38,15 +38,12 @@ const projectsData = [
     {
     title: 'tic-tac-toe Game',
     description: 'A simple Tkinter-based Python game Includes options to restart the game and displays a message box with the result.',
-    imageUrl: '/Images/projects/tic-tac-toe-game-in-python.png',
+    imageUrl:  import.meta.env.BASE_URL + '/Images/projects/tic-tac-toe-game-in-python.png',
     tags: ['HTML', 'CSS', 'JavaScript'],
     codeUrl: '#',
     demoUrl: '#',
     delay: 600,
-  },
-
-
-  
+  },  
 ];
 
 export default projectsData;
