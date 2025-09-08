@@ -2,7 +2,7 @@ const projectsData = [
   {
     title: 'E-Commerce Platform',
     description: 'A simple full-stack e-commerce web application built with Java Spring Boot and Angular. Core features include product listing, shopping cart.',
-    imageUrl: '/Images/projects/ecommerce-website.png',
+    imageUrl: import.meta.env.BASE_URL + '/Images/projects/ecommerce-website.png',
     tags: ['Angular', 'Spring', 'Bootstrap', 'MySQL'],
     codeUrl: 'https://github.com/youssef88ab/ecommerce-java-angular',
     demoUrl: 'https://github.com/youssef88ab/ecommerce-java-angular',
