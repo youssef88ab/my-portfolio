@@ -5,7 +5,7 @@ export const skillsData = {
     { name: 'JavaScript', icon: 'devicon-javascript-plain' },
     { name: 'TypeScript', icon: 'devicon-typescript-plain' },
     { name: 'React', icon: 'devicon-react-original colored' },
-    { name: 'Angular', icon: 'devicon-angularjs-plain' },
+    { name: 'Redis', icon: 'devicon-redis-plain' },
     { name: 'Tailwind CSS', icon: 'devicon-tailwindcss-plain' },
     { name: 'Bootstrap', icon: 'devicon-bootstrap-plain' },
     { name: 'Node.js', icon: 'devicon-nodejs-plain' },
