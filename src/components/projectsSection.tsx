@@ -15,7 +15,7 @@ const Projects: FC = () => {
       </div>
       <div className="text-center fade-in-up opacity-0 translate-y-5">
         <a
-          href="/projects"
+          href="my-portfolio/projects"
           className="inline-flex items-center bg-slate-800 hover:bg-slate-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105"
         >
           <FolderOpen className="w-5 h-5 mr-2" />
