@@ -38,7 +38,7 @@ const Navbar: FC = () => {
 
       {/* Mobile nav */}
       {isMenuOpen && (
-        <div className="md:hidden px-6 pb-4 space-y-2">
+        <div className="md:hidden px-6 py-4 space-y-2 flex flex-col bg-neutral-900/95 border-t border-white/10">
           <NavLink to="/" className={linkClasses} end onClick={() => setMenuOpen(false)}>Home</NavLink>
           <NavLink to="/projects" className={linkClasses} onClick={() => setMenuOpen(false)}>Projects</NavLink>
           <NavLink to="/blogs" className={linkClasses} onClick={() => setMenuOpen(false)}>Blogs</NavLink>

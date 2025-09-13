@@ -2,9 +2,13 @@ import type { FC } from "react";
 import { FolderOpen } from "lucide-react";
 import MidProjectCard from "./midProjectCard";
 import { midProjectsCardData } from "../data/midProjectsCardData";
+import { useNavigate } from "react-router-dom";
 
 
 const Projects: FC = () => {
+
+  const navigate = useNavigate();
+
   return (
     <section id="projects" className="py-24 fade-in-up opacity-0 translate-y-5">
       <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center tracking-tight">Projects</h2>
@@ -15,7 +19,7 @@ const Projects: FC = () => {
       </div>
       <div className="text-center fade-in-up opacity-0 translate-y-5">
         <a
-          href="my-portfolio/projects"
+          onClick={() => navigate('/projects')}
           className="inline-flex items-center bg-slate-800 hover:bg-slate-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105"
         >
           <FolderOpen className="w-5 h-5 mr-2" />
