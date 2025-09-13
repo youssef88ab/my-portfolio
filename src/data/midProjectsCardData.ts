@@ -1,16 +1,16 @@
 export const midProjectsCardData = [
   {
     title: "Ecommerce Platform",
-    description: "A simple full-stack e-commerce web application built with Java Spring Boot and Angular, featuring product listings, a shopping cart, and user management.",
-    tech: ["angularjs", "mysql", "spring"],
+    description: "A simple full-stack e-commerce web application built with Java Spring Boot and React, featuring product listings, a shopping cart, and user management.",
+    tech: ["react", "postgresql", "spring"],
     github: "https://github.com/youssef88ab/ecommerce-java-angular",
     demo: "https://github.com/youssef88ab/ecommerce-java-angular",
     delay: "0ms",
   },
   {
-    title: "Notary Professional Website",
-    description: "A complete website solution for notary offices built with core web technologies (no frameworks).",
-    tech: ["php", "mysql", "javascript", "bootstrap"],
+    title: "Guess The Word Game",
+    description: "A classic Guess the Word game built with vanilla JavaScript, demonstrating fundamental DOM manipulation and game logic.",
+    tech: ["html5", "css3", "javascript", "tailwindcss"],
     github: "https://github.com/youssef88ab/notaire-php",
     demo: "https://github.com/youssef88ab/notaire-php",
     delay: "100ms",
